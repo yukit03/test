@@ -14,6 +14,7 @@ public class Main {
 		for(BankAccount ba : bank) {
 			ba.displayAccountInfo();
 		}
+		
 		//Bobが5000引き出す
 		bank[0].withdraw(5000);
 		//Charlieが3000引き出すが、残高不足
